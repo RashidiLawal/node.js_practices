@@ -427,6 +427,7 @@ fs.unlink('coment.txt', err => {
 
 
 /**             ROUTING            **/
+app.get('/', function(req, res){})
 
 if(request.url == "example/path/here"){
     response()
@@ -664,7 +665,7 @@ doSomething1()
      console.log(error)
  });
 
- examples of the 3 methods
+//  examples of the 3 methods
 throw new Error('error message')
 
 try{
